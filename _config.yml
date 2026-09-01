@@ -11,7 +11,7 @@ favicon: assets/favicon.ico
 header_text: >
   Notes on the things I build
 footer_text: >
-  &copy; {{ 'now' | date: "%Y" }} Rishabh Roy. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>.
+  &copy; 2026 Rishabh Roy. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>.
 
 # Blog
 excerpt: true
