@@ -1,10 +1,12 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
-tags: [Page]
 ---
+<div class="page-content">
+<h1>About</h1>
 
-Hi, I'm Rishabh. This is where I write up the things I build — apps, experiments, and whatever else I end up going deep on.
+<p>Hi, I'm Rishabh. This is where I write up the things I build — apps, experiments, and whatever else I end up going deep on.</p>
 
-Find me on [GitHub](https://github.com/ri-sh) or reach out at [allmyexperimentsin@gmail.com](mailto:allmyexperimentsin@gmail.com).
+<p>Find me on <a href="https://github.com/{{ site.github_username }}">GitHub</a>, <a href="https://www.linkedin.com/in/r0yrishabh/">LinkedIn</a>, or reach out at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+</div>
