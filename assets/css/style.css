@@ -34,11 +34,21 @@ a:hover { text-decoration: underline; }
   padding-bottom: 15px;
 }
 .site-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
   font-size: 26px;
   font-weight: 500;
   font-family: "Ubuntu", Helvetica, sans-serif;
   color: #0e3465 !important;
   margin-right: auto;
+}
+.site-title .avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #828282;
 }
 .site-title:hover { text-decoration: none; opacity: .75; }
 .site-tagline {

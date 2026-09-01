@@ -1,6 +1,9 @@
 <header class="site-header">
   <div class="wrapper wrapper-header">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="site-title" href="{{ '/' | relative_url }}">
+      <img class="avatar" src="{{ site.avatar }}" alt="{{ site.author }}">
+      {{ site.title }}
+    </a>
     <nav>
       <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
       <a class="page-link" href="https://github.com/{{ site.github_username }}">GitHub</a>
