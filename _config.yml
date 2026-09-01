@@ -1,0 +1,28 @@
+title: "Rishabh's Blog"
+tagline: "Notes from building things"
+description: "Writeups on the projects I build — apps, experiments, and everything in between."
+author: Rishabh Roy
+email: allmyexperimentsin@gmail.com
+github_username: ri-sh
+
+# Set this once you register a domain, e.g. "blog.yourdomain.com" (also update the CNAME file)
+url: ""
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
