@@ -1,6 +1,6 @@
 # blog
 
-Source for my blog, built with [Jekyll](https://jekyllrb.com) and hosted on GitHub Pages.
+Source for my blog, built with [Jekyll](https://jekyllrb.com) + the [Type on Strap](https://github.com/sylhare/Type-on-Strap) theme, hosted on GitHub Pages.
 
 ## Writing a new post
 
@@ -8,12 +8,26 @@ Add a file to `_posts/` named `YYYY-MM-DD-slug.md`:
 
 ```markdown
 ---
+layout: post
 title: "Post title"
+author: rishabh
 tags: [tag1, tag2]
+excerpt_separator: <!--more-->
 ---
 
-Post content in Markdown goes here.
+The excerpt shown on the homepage goes here.
+<!--more-->
+
+The rest of the post goes here.
 ```
+
+## Customizing
+
+- Site title, tagline, avatar: `_config.yml`
+- Author bio: `_data/authors.yml`
+- Nav links: `_data/menu.yml`
+- Social/share icons: `_data/social.yml`
+- Deeper visual tweaks (colors, fonts): see the [Type on Strap docs](https://github.com/sylhare/Type-on-Strap) — override any of its `_sass`/`_layouts`/`_includes` files locally by adding a file at the same path in this repo.
 
 Push to `main` — GitHub Pages rebuilds automatically within a minute or two.
 

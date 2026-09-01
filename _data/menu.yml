@@ -1,0 +1,8 @@
+- about:
+  title: About
+  url: /about/
+  position: 1
+- github:
+  title: GitHub
+  url: https://github.com/ri-sh
+  position: 2

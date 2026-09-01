@@ -1,26 +1,39 @@
+# SITE CONFIGURATION
+baseurl: "/blog"
+url: "https://ri-sh.github.io"
+
+# THEME-SPECIFIC CONFIGURATION (Type on Strap)
 title: "Rishabh's Blog"
-tagline: "Notes from building things"
-description: "Writeups on the projects I build — apps, experiments, and everything in between."
-author: Rishabh Roy
-email: allmyexperimentsin@gmail.com
-github_username: ri-sh
+description: "Notes on the things I build — apps, experiments, and everything in between."
+avatar: "https://avatars.githubusercontent.com/u/4775466?v=4"
+favicon: assets/favicon.ico
 
-# Set this once you register a domain, e.g. "blog.yourdomain.com" (also update the CNAME file)
-url: ""
+header_text: >
+  Notes on the things I build
+footer_text: >
+  &copy; {{ 'now' | date: "%Y" }} Rishabh Roy. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>.
 
-markdown: kramdown
-permalink: /:year/:month/:day/:title/
+# Blog
+excerpt: true
+post_navigation: true
+
+# Features
+color_theme: auto
+
+# Author shown on posts (matches an entry in _data/authors.yml)
+author: rishabh
+
+# PAGINATION
+paginate: 5
+paginate_path: "/page:num"
+
+remote_theme: sylhare/Type-on-Strap
 
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-paginate
   - jekyll-seo-tag
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+  - jekyll-feed
 
 exclude:
   - README.md
