@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Easy Gensim Example"
-date: 2015-01-13 04:53:00
+date: 2015-01-13 12:53:00
 ---
 
 _Originally posted on my old blog on 2015-01-13._

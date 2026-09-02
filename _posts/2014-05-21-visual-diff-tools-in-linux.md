@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Visual Diff Tools in Linux"
-date: 2014-05-21 03:39:00
+date: 2014-05-21 10:39:00
 tags: ["linux"]
 thumbnail: /assets/img/migrated/visual-diff-tools-in-linux/img0.png
 ---

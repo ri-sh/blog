@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "C ++ algorithmic challenges"
-date: 2014-05-19 11:14:00
-tags: ["Algorithms", "codechef", "competitive programming", "spoj"]
+date: 2014-05-19 18:41:00
 ---
 
 _Originally posted on my old blog on 2014-05-19._
@@ -604,7 +603,7 @@ __Edmond Karps -Network Flow__
 **Implementation 0: Following program computes Suffix Array. It also finds the longest Common Prefix length of adjacent Suffix. The program also implements RMQ to find the length of longest common prefix b/w any suffix i and j****.**  
 **Tested at** : <https://www.hackerrank.com/challenges/string-similarity>  
   
-  
+****  
   
 
     

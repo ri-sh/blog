@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "MNIST handwritten digit recognition"
-date: 2015-05-09 04:37:00
-tags: ["Machine learning", "Nueral Networks"]
+date: 2015-05-09 11:37:00
+tags: ["Nueral Networks", "Machine learning"]
 ---
 
 _Originally posted on my old blog on 2015-05-09._

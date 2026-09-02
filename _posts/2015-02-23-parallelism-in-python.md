@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Parallelism in Python"
-date: 2015-02-23 04:46:00
+date: 2015-02-23 12:46:00
 ---
 
 _Originally posted on my old blog on 2015-02-23._
