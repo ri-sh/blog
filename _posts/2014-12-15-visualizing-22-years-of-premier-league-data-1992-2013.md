@@ -119,7 +119,7 @@ def getPremLeague(wiki):
     return Team
 ```
 
-I'm planning to write a more detailed post on the scraping part of the project at some point. The script is entirely in Python, using Beautiful Soup to scrape the Wikipedia pages. This [GitHub repo](https://github.com/rishabhsixfeet/wikiScraper) contains all the files I used to create the plots.
+I'm planning to write a more detailed post on the scraping part of the project at some point. The script is entirely in Python, using Beautiful Soup to scrape the Wikipedia pages. This [GitHub repo](https://github.com/ri-sh/wikiScraper) contains all the files I used to create the plots.
 
 The following plot shows the cumulative matches won per year by each team, i.e. the scoring trajectory of each team -- it shows that Manchester United has a constant growth curve, whereas Manchester City has a steep growing curve.
 

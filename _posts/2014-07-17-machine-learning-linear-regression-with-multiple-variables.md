@@ -73,7 +73,7 @@ Here’s the octave function to compute the cost of using the given ![\\theta](/
   
 ---|---  
   
-[view raw](https://raw.githubusercontent.com/rishabhsixfeet/machine-learning-coursera/master/ex1/computeCost.m)[computeCost.m](https://github.com/rishabhsixfeet/machine-learning-coursera/blob/master/ex1/computeCost.m) hosted with ❤ by [GitHub](https://github.com/)
+[view raw](https://raw.githubusercontent.com/ri-sh/machine-learning-coursera/master/ex1/computeCost.m)[computeCost.m](https://github.com/ri-sh/machine-learning-coursera/blob/master/ex1/computeCost.m) hosted with ❤ by [GitHub](https://github.com/)
 
 In the above code, ![X * \\theta](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img15.png) computes the value of ![h_{\\theta}\(x^{\(i\)}\) = \\theta_{0} + \\theta_{1}x](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img16.png). We then subtract the value of  _y_ for that training example. This value is then squared, summed and subsequently reduced by a factor of 2m.
 
@@ -121,7 +121,7 @@ Now that we have computed the cost, let us compute the parameters.
   
 ---|---  
   
-[view raw](https://raw.githubusercontent.com/rishabhsixfeet/machine-learning-coursera/master/ex1/gradientDescent.m)[gradientDescent.m](https://github.com/rishabhsixfeet/machine-learning-coursera/blob/master/ex1/gradientDescent.m) hosted with ❤ by [GitHub](https://github.com/)
+[view raw](https://raw.githubusercontent.com/ri-sh/machine-learning-coursera/master/ex1/gradientDescent.m)[gradientDescent.m](https://github.com/ri-sh/machine-learning-coursera/blob/master/ex1/gradientDescent.m) hosted with ❤ by [GitHub](https://github.com/)
 
 Note that in our solutions we have assumed that  _X_ is a matrix with unspecified number of columns. The above solutions can be applied no matter the number of features.
 
@@ -195,7 +195,7 @@ One important step when running the gradient descent is feature normalization. W
   
 ---|---  
   
-[view raw](https://raw.githubusercontent.com/rishabhsixfeet/machine-learning-coursera/master/ex1/computeCost.m)[featureNormalize.m](https://github.com/rishabhsixfeet/machine-learning-coursera/blob/master/ex1/computeCost.m) hosted with ❤ by [GitHub](https://github.com/)
+[view raw](https://raw.githubusercontent.com/ri-sh/machine-learning-coursera/master/ex1/computeCost.m)[featureNormalize.m](https://github.com/ri-sh/machine-learning-coursera/blob/master/ex1/computeCost.m) hosted with ❤ by [GitHub](https://github.com/)
 
 In the iterative gradient descent algorithm, one has to guess an ![\\alpha](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img18.png) and also decide upon the number of iterations. It might take multiple runs of the algorithm to settle down on a suitable value for the above variables. Using the normal equation obviates the need to guess these values. It computes the value of ![\\theta](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img19.png) in one shot. The code for the same is:
 

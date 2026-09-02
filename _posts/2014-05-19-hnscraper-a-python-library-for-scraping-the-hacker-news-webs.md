@@ -10,7 +10,7 @@ _Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-05
 I'm a big fan of the Hacker News website, and over the last nine months or so, I've upvoted quite a few stories. I wanted to include links to these on my blog. In this age of RSS, I assumed this would be simple, but it was not to be. HN does not make saved stories available by RSS, and doesn't support adding RSS feeds into sidebars. So I started building a homebrew solution.  
   
 The result is that i wrote a hnscraper library, and the posterouscontrib program here.  
-<https://github.com/rishabhsixfeet/ScraperHN>  
+<https://github.com/ri-sh/ScraperHN>  
   
 The hnscraper library allows a developer to connect to the HN website, and scrape stories, currently from the front page or from a user's saved stories page.  
 The posterouscontrib program builds a static html file, suitable for inclusion in a Posterous sidebar by adding an iframe to a custom template.  

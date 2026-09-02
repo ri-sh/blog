@@ -30,7 +30,7 @@ it will list all the ATMs in that location with the address of the atms .
 
 .
 
-you can view the source code on [github](https://github.com/rishabhsixfeet/mobiapps/blob/master/textweb/src/searcharound.py)
+you can view the source code on [github](https://github.com/ri-sh/mobiapps/blob/master/textweb/src/searcharound.py)
 
   
   

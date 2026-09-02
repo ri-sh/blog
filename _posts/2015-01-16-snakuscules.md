@@ -46,4 +46,4 @@ A more rigorous implementation can be seen in the [original paper](http://bigwww
   
 
 
-Matlab codes for the same can be found at [https://github.com/ri-sh/Snakuscule](https://github.com/rishabhsixfeet/Snakuscule)
+Matlab codes for the same can be found at [https://github.com/ri-sh/Snakuscule](https://github.com/ri-sh/Snakuscule)
