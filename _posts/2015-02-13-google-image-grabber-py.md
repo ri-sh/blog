@@ -14,7 +14,7 @@ Let's start with the quick 'n dirty way of collecting data: Google Search.
 
 _A brief non sequitur_... Google Image search has gotten incredibly cool. The feature to filter results on image content is likely powered by some computer vision algorithms, though I don't know to what extent that's true. Check out this search for Vladimir Putin.
 
-[![](/assets/img/migrated/google-image-grabber-py/img0.png)](/assets/img/migrated/google-image-grabber-py/img0.png)
+[![](/blog/assets/img/migrated/google-image-grabber-py/img0.png)](/blog/assets/img/migrated/google-image-grabber-py/img0.png)
 
 Amusing Google Image search for "Vladimir Putin" + badass. **UPDATE:** _some details from [Google Research](http://research.google.com/ "google research homepage") on their blog [here](http://googleresearch.blogspot.com/2013/06/improving-photo-search-step-across.html "improving photo search - google research")._
 

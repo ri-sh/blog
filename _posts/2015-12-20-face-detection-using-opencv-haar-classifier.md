@@ -41,9 +41,9 @@ In [2]:
     show()
     
 
-![](/assets/img/migrated/face-detection-using-opencv-haar-classifier/img0.png)
+![](/blog/assets/img/migrated/face-detection-using-opencv-haar-classifier/img0.png)
 
-![](/assets/img/migrated/face-detection-using-opencv-haar-classifier/img1.png)
+![](/blog/assets/img/migrated/face-detection-using-opencv-haar-classifier/img1.png)
 
 The next step is loading the Haar Classifier file. Each classifer is trained with hundreds and thousands of images of a particular kind of object which needs to be detected. We can train a classifer to detect cars, faces, humans, eyes, bottles etc. Since, we are interested in face detection, we will use the OpenCV Classifer for face detection. The classifers are `xml` files that hold the data required to detect faces. All the classifiers that OpenCV provides are available in `<path to OpenCV>/data/haarcascades/`directory. We will use `haarcascade_frontalface_default.xml` and load it using the `cv2.CascadeClassifier` class.
 
@@ -122,7 +122,7 @@ In [2]:
     
     NameError: name 'im' is not defined
 
-![](/assets/img/migrated/face-detection-using-opencv-haar-classifier/img2.png)
+![](/blog/assets/img/migrated/face-detection-using-opencv-haar-classifier/img2.png)
 
 ##  OPENCV CAVEAT[](https://render.githubusercontent.com/view/ipynb?commit=6ee6f80f80cb72e74972997c012d2f1639e4314e&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f62696b7a30352f69707974686f6e2d6e6f7465626f6f6b732f366565366638306638306362373265373439373239393763303132643266313633396534333134652f636f6d70757465722d766973696f6e2f666163652d646574656374696f6e2e6970796e62&nwo=bikz05%2Fipython-notebooks&path=computer-vision%2Fface-detection.ipynb&repository_id=35251401#OPENCV-CAVEAT)
 

@@ -10,7 +10,7 @@ _Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-07
 **I love using python for handing data. Displaying it isn’t always as easy.** Python fast to write, and numpy, scipy, and matplotlib are an incredible combination. I love matplotlib for displaying data and [use it all the time](http://rishabhroy.blogspot.com/), but when it comes to realtime data visualization, matplotlib (admittedly) falls behind. Imagine trying to plot sound waves in real time. Matplotlib simply can’t handle it. I’ve recently been making progress toward this end with PyQwt with the [Python X,Y](https://code.google.com/p/pythonxy/) distribution. It is a cross-platform solution which should perform identically on Windows, Linux, and MacOS. Here’s an example of what it looks like plotting some dummy data (a sine wave) being transformed with numpy.roll().  
 
 
-[![](/assets/img/migrated/realtime-data-visualization-in-python/img0.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOXVbCLhC4dRo149c8Zre0yrH-O9XHulHPq1XBhHRmC7fmD78MnRrYp-sfUkMGkQ7uIyZ3GSbpSU28AexUloy44nnhmzmTlDbQ-v7U38__E4WBURNwB9KfEsm2FZH_lsZQRBazPV_zn2A/s1600/f.gif)
+[![](/blog/assets/img/migrated/realtime-data-visualization-in-python/img0.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOXVbCLhC4dRo149c8Zre0yrH-O9XHulHPq1XBhHRmC7fmD78MnRrYp-sfUkMGkQ7uIyZ3GSbpSU28AexUloy44nnhmzmTlDbQ-v7U38__E4WBURNwB9KfEsm2FZH_lsZQRBazPV_zn2A/s1600/f.gif)
 
   
 

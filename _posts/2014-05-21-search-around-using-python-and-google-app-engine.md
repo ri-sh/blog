@@ -48,7 +48,7 @@ i would like to answer some questions about Google app engine which some of you 
 
 ###  What is Google App Engine ?
 
-[![](/assets/img/migrated/search-around-using-python-and-google-app-engine/img0.gif)](http://2.bp.blogspot.com/_Nwfd_2Q90bw/TC0Xo_Hf_4I/AAAAAAAAA2k/_hCAgKc3xk0/s1600/appengine_lowres.gif)
+[![](/blog/assets/img/migrated/search-around-using-python-and-google-app-engine/img0.gif)](http://2.bp.blogspot.com/_Nwfd_2Q90bw/TC0Xo_Hf_4I/AAAAAAAAA2k/_hCAgKc3xk0/s1600/appengine_lowres.gif)
 
 Google App Engine is an online platform to host your web application. It is what is popularly called a Cloud Computing platform to host and enable your web applications on the cloud. Essentially having a cloud platform for hosting your applications abstracts you from worrying about the various platform setup and environment related issues like server configuration, network configuration, bandwidth requirements among others.  
 

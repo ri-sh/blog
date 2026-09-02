@@ -10,7 +10,7 @@ _Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-12
 
 ## (Python) Visualizing 22 years of Premier League data scraped from Wikipedia
 
-[![](/assets/img/migrated/visualizing-22-years-of-premier-league-data-1992-2013/img0.PNG)](/assets/img/migrated/visualizing-22-years-of-premier-league-data-1992-2013/img0.PNG)
+[![](/blog/assets/img/migrated/visualizing-22-years-of-premier-league-data-1992-2013/img0.PNG)](/blog/assets/img/migrated/visualizing-22-years-of-premier-league-data-1992-2013/img0.PNG)
 
 This post focuses on visualizing the data of the major Premier League clubs -- 12 clubs, represented above by colored lines. I scraped the data from Wikipedia because I was unable to find raw and reliable data containing match data of 22 years in one place. It's also difficult to get match details like the top goal scorer and goals scored from different sources.
 

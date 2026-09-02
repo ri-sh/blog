@@ -25,7 +25,7 @@ The size of of MNIST database is about 55.4 MB. Once the database is downloaded,
 
   
   
-[![One sample for each handwritten digit in MNSIT database](/assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png)](/assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png)Figure 1: One sample for each handwritten digit in MNSIT database [[PNG](/assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png)]  
+[![One sample for each handwritten digit in MNSIT database](/blog/assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png)](/blog/assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png)Figure 1: One sample for each handwritten digit in MNSIT database [[PNG](/blog/assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png)]  
 
 
 There are approximate 7000 samples for each digit. I actually calculated the number of samples for each digit using collections.Counter class. The actual samples for each digit was -
@@ -171,14 +171,14 @@ I tested the classifier on this image -
   
 
 
-[![](/assets/img/migrated/digit-recognition-in-opencv-and-python/img1.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZMr5GJdneBC0fassse6yRiw-n6tBbSEN1js3pg-k82ZbrFX93-5AlHCoLeh8T_9l2Qehj1atYomWiicHPDITVXVQueYSPKszszQ-Lb2aAOFkYHGAZWnpQAPEqN6D3g9RDwPxRDOfSL4U/s1600/p.jpg)  
+[![](/blog/assets/img/migrated/digit-recognition-in-opencv-and-python/img1.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZMr5GJdneBC0fassse6yRiw-n6tBbSEN1js3pg-k82ZbrFX93-5AlHCoLeh8T_9l2Qehj1atYomWiicHPDITVXVQueYSPKszszQ-Lb2aAOFkYHGAZWnpQAPEqN6D3g9RDwPxRDOfSL4U/s1600/p.jpg)  
   
 Figure 2: Input Image [JPG]  
 
 
 The resulting image, after running the second script was -
 
-[![](/assets/img/migrated/digit-recognition-in-opencv-and-python/img2.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4-HOPSuIkcC1rMh5sxHIob3fnx5u-DDjKxwy7c7r40JWEpPB5DxafMSHQuJs6A_-Sf-ujf-8695RNoHArHvaEHfHk3Fe1lrPF3qboUmzRbZZnNGpxqjhpK2cUzwe_X8LynqY2Psqhwnk/s1600/pe.jpg)  
+[![](/blog/assets/img/migrated/digit-recognition-in-opencv-and-python/img2.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4-HOPSuIkcC1rMh5sxHIob3fnx5u-DDjKxwy7c7r40JWEpPB5DxafMSHQuJs6A_-Sf-ujf-8695RNoHArHvaEHfHk3Fe1lrPF3qboUmzRbZZnNGpxqjhpK2cUzwe_X8LynqY2Psqhwnk/s1600/pe.jpg)  
   
 Figure 3: Resultant Image [PNG]  
 
@@ -187,7 +187,7 @@ So, the results are pretty good.
 
 Here is another result -
 
-[![](/assets/img/migrated/digit-recognition-in-opencv-and-python/img3.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpJprGSMPEuXO8xhjo2nvXH26eF_5Bs4KU2xXW2r8NldApO9xSQzm8tMrJmQRTL_YDVLTWUXCduLcIIDN4538TiNr6Z3-M3tlZdSEAxa6YMitzIg7bj7DV_0X3Xl9k0NnrvGl247glpmo/s1600/pe.jpg)  
+[![](/blog/assets/img/migrated/digit-recognition-in-opencv-and-python/img3.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpJprGSMPEuXO8xhjo2nvXH26eF_5Bs4KU2xXW2r8NldApO9xSQzm8tMrJmQRTL_YDVLTWUXCduLcIIDN4538TiNr6Z3-M3tlZdSEAxa6YMitzIg7bj7DV_0X3Xl9k0NnrvGl247glpmo/s1600/pe.jpg)  
   
 Figure 4: All the digits have been correctly recognized. [PNG]  
 
