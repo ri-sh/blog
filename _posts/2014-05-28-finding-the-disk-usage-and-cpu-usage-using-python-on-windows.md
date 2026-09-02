@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "finding the disk usage and cpu usage using python on windows"
+title: "Finding the Disk Usage and CPU Usage Using Python on Windows"
 date: 2014-05-28 14:36:00
 tags: ["Windows", "_winreg", "Windows Registry", "Python"]
 ---

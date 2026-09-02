@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Machine Learning: Linear Regression With Multiple Variables"
+title: "Machine Learning: Linear Regression with Multiple Variables"
 date: 2014-07-17 15:54:00
 tags: ["Machine learning", "Algorithms"]
-thumbnail: /assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img1.php
+thumbnail: /assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img_scatter.png
 ---
 
 _Originally posted on my old blog on 2014-07-17._
@@ -13,33 +13,33 @@ _Originally posted on my old blog on 2014-07-17._
   
 
 
-[![](http://dosblog.diabolicalorsmar.netdna-cdn.com/wp-content/uploads/2012/05/scatter_plot.gif)](http://dosblog.diabolicalorsmar.netdna-cdn.com/wp-content/uploads/2012/05/scatter_plot.gif "Machine Learning: Linear Regression With Multiple Variables")
+[![](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img_scatter.png)](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img_scatter.png "Machine Learning: Linear Regression With Multiple Variables")
 
 In this series of blog posts that I want to put up, I do not wish to get into all the theoretical details of the algorithms. I am working through the Machine Learning course offered by Coursera and want to record the implementation details. Since I’m new to both machine learning and octave, there could be some blatant errors. I’d very much like to correct them as I continue learning.
 
 Let’s start off with the Linear Regression. The main modules that need to be implemented in any regression are the cost function and the parameter values. The cost function for a linear regression is defined as:
 
-![J\(\\theta\) = \\frac{1}{2m}\\sum_{i=1}^{m}\(h_{\\theta}\(x^{\(i\)}\) - y^{\(i\)}\) ^2](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img1.php)
+![J\(\\theta\) = \\frac{1}{2m}\\sum_{i=1}^{m}\(h_{\\theta}\(x^{\(i\)}\) - y^{\(i\)}\) ^2](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img1.png)
 
-where the hypothesis ![h_{\\theta}\(x^{\(i\)}\)](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img2.php) is given by the linear model
+where the hypothesis ![h_{\\theta}\(x^{\(i\)}\)](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img2.png) is given by the linear model
 
-![h_{\\theta}\(x^{\(i\)}\) = \\theta^{T}x = \\theta_{0} + \\theta_{1}x](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img3.php)
+![h_{\\theta}\(x^{\(i\)}\) = \\theta^{T}x = \\theta_{0} + \\theta_{1}x](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img3.png)
 
-Note that the parameters of our model are the ![\\theta_{j}](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img4.php) values. These are the values that need to be adjusted to minimize the cost ![J\(\\theta\)](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img5.php). One way to do this is to use the batch gradient descent algorithm. In batch gradient descent, each iteration performs the update:
+Note that the parameters of our model are the ![\\theta_{j}](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img4.png) values. These are the values that need to be adjusted to minimize the cost ![J\(\\theta\)](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img5.png). One way to do this is to use the batch gradient descent algorithm. In batch gradient descent, each iteration performs the update:
 
-![\\theta_{j} := \\theta_{j} - \\alpha\\frac{1}{m}\\sum_{i=1}^{m}\(h_{\\theta}\(x^{\(i\)}\) - y^{\(i\)}\)x_{j}^{\(i\)}](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img6.php)
+![\\theta_{j} := \\theta_{j} - \\alpha\\frac{1}{m}\\sum_{i=1}^{m}\(h_{\\theta}\(x^{\(i\)}\) - y^{\(i\)}\)x_{j}^{\(i\)}](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img6.png)
 
-The update happens simultaneously for all j. With each iteration of gradient descent the parameters ![\\theta_{j}](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img7.php) come closer to the optimal values that will achieve the lowest cost ![J\(\\theta\)](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img8.php).
+The update happens simultaneously for all j. With each iteration of gradient descent the parameters ![\\theta_{j}](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img7.png) come closer to the optimal values that will achieve the lowest cost ![J\(\\theta\)](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img8.png).
 
 Instead of iterating, we could use vectorization to solve the problem quicker. The normal equation is applied in this case:
 
-![\\theta = \(x^{T}x\)^{-1}x^{T}y](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img9.php)
+![\\theta = \(x^{T}x\)^{-1}x^{T}y](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img9.png)
 
 One disadvantage of using the normal equation is that it is slower compared to the iterative method when the number of features become something like a million.
 
-Let us compute the cost first. Say we have a matrix  _X_ which contains the training examples. Let there be  _m_ training examples and  _n_ features. Our matrix  _X_ will have one example in each row, thus having  _m_ rows. Also let us add 1 before the first column to each row of  _X_. Thus the dimensions of  _X_ will be ![m X \(n+1\)](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img10.php). Let  _y_ be the output vector of size ![m X 1](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img11.php). Finally, our ![\\theta](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img12.php) will be a ![\(n + 1\) X 1](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img13.php) vector denoting the parameters of our regression model.
+Let us compute the cost first. Say we have a matrix  _X_ which contains the training examples. Let there be  _m_ training examples and  _n_ features. Our matrix  _X_ will have one example in each row, thus having  _m_ rows. Also let us add 1 before the first column to each row of  _X_. Thus the dimensions of  _X_ will be ![m X \(n+1\)](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img10.png). Let  _y_ be the output vector of size ![m X 1](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img11.png). Finally, our ![\\theta](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img12.png) will be a ![\(n + 1\) X 1](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img13.png) vector denoting the parameters of our regression model.
 
-Here’s the octave function to compute the cost of using the given ![\\theta](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img14.php) parameters.
+Here’s the octave function to compute the cost of using the given ![\\theta](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img14.png) parameters.
 
 12345678910111213| 
     
@@ -75,9 +75,9 @@ Here’s the octave function to compute the cost of using the given ![\\theta](/
   
 [view raw](https://raw.githubusercontent.com/rishabhsixfeet/machine-learning-coursera/master/ex1/computeCost.m)[computeCost.m](https://github.com/rishabhsixfeet/machine-learning-coursera/blob/master/ex1/computeCost.m) hosted with ❤ by [GitHub](https://github.com/)
 
-In the above code, ![X * \\theta](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img15.php) computes the value of ![h_{\\theta}\(x^{\(i\)}\) = \\theta_{0} + \\theta_{1}x](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img16.php). We then subtract the value of  _y_ for that training example. This value is then squared, summed and subsequently reduced by a factor of 2m.
+In the above code, ![X * \\theta](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img15.png) computes the value of ![h_{\\theta}\(x^{\(i\)}\) = \\theta_{0} + \\theta_{1}x](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img16.png). We then subtract the value of  _y_ for that training example. This value is then squared, summed and subsequently reduced by a factor of 2m.
 
-The value of cost function can be used for debugging the iterations when the iterative batch gradient algorithm is used. A continuous reduction of the cost is a sign that the gradient descent is working properly. If the cost rises continuously instead then there is some error in the implementation – perhaps the ![\\alpha](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img17.php) value is too large?
+The value of cost function can be used for debugging the iterations when the iterative batch gradient algorithm is used. A continuous reduction of the cost is a sign that the gradient descent is working properly. If the cost rises continuously instead then there is some error in the implementation – perhaps the ![\\alpha](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img17.png) value is too large?
 
 Now that we have computed the cost, let us compute the parameters.
 
@@ -197,7 +197,7 @@ One important step when running the gradient descent is feature normalization. W
   
 [view raw](https://raw.githubusercontent.com/rishabhsixfeet/machine-learning-coursera/master/ex1/computeCost.m)[featureNormalize.m](https://github.com/rishabhsixfeet/machine-learning-coursera/blob/master/ex1/computeCost.m) hosted with ❤ by [GitHub](https://github.com/)
 
-In the iterative gradient descent algorithm, one has to guess an ![\\alpha](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img18.php) and also decide upon the number of iterations. It might take multiple runs of the algorithm to settle down on a suitable value for the above variables. Using the normal equation obviates the need to guess these values. It computes the value of ![\\theta](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img19.php) in one shot. The code for the same is:
+In the iterative gradient descent algorithm, one has to guess an ![\\alpha](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img18.png) and also decide upon the number of iterations. It might take multiple runs of the algorithm to settle down on a suitable value for the above variables. Using the normal equation obviates the need to guess these values. It computes the value of ![\\theta](/assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img19.png) in one shot. The code for the same is:
 
 12345678| 
     

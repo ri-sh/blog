@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tabe Of Contents"
+title: "Table of Contents"
 date: 2015-07-02 22:46:00
 ---
 

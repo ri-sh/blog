@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "695TH PLACE IN KAGGLE\u2019S DRIVER TELEMATICS CHALLENGE"
+title: "695th Place in Kaggle's Driver Telematics Challenge"
 date: 2015-03-21 20:37:00
 tags: ["kaggle", "Machine learning"]
 ---

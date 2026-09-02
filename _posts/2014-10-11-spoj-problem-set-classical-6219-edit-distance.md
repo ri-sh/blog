@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SPOJ Problem Set (classical)  6219. Edit distance"
+title: "SPOJ Problem Set (Classical) 6219: Edit Distance"
 date: 2014-10-11 20:41:00
 ---
 

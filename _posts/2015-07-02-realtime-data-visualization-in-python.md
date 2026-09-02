@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Realtime Data Visualization in python"
+title: "Realtime Data Visualization in Python"
 date: 2015-07-02 20:59:00
 thumbnail: /assets/img/migrated/realtime-data-visualization-in-python/img0.gif
 ---
@@ -19,7 +19,7 @@ Loading TOC. Please wait....
 
 **How did I do it?** Easy. First, I made the GUI with [QtDesigner](http://qt-project.org/doc/qt-4.8/designer-manual.html) (which comes with Python x,y). I saved the GUI as a .ui file. I then used the pyuic4 command to generate a python script from the .ui file. In reality, I use a little helper script I wrote designed to build .py files from .ui files and start a little “ui.py” file which imports all of the ui classes. It’s overkill for this, but I’ll put it in the ZIP anyway. Here’s what the GUI looks like in QtDesigner:
 
-[![](/assets/img/migrated/realtime-data-visualization-in-python/img1.png)](https://rishabhroy.blogspot.com/)
+_(screenshot no longer available — the original image host is gone)_
 
   
 

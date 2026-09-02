@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "digit recognition in opencv and python"
+title: "Digit Recognition in OpenCV and Python"
 date: 2015-05-09 11:33:00
 thumbnail: /assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png
 ---
@@ -25,7 +25,7 @@ The size of of MNIST database is about 55.4 MB. Once the database is downloaded,
 
   
   
-[![One sample for each handwritten digit in MNSIT database](/assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png)](http://hanzratech.in/figures/mnist-dataset.png)Figure 1: One sample for each handwritten digit in MNSIT database [[PNG](http://hanzratech.in/figures/mnist-dataset.png)]  
+[![One sample for each handwritten digit in MNSIT database](/assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png)](/assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png)Figure 1: One sample for each handwritten digit in MNSIT database [[PNG](/assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png)]  
 
 
 There are approximate 7000 samples for each digit. I actually calculated the number of samples for each digit using collections.Counter class. The actual samples for each digit was -

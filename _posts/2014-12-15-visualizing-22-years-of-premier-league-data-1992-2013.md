@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visualizing 22 years of Premier League data (1992-2013)."
+title: "Visualizing 22 Years of Premier League Data (1992-2013)"
 date: 2014-12-15 02:17:00
 tags: ["DataAnalsis", "scraping", "Plotly", "BeautifulSoup", "visualization", "DataMining"]
 thumbnail: /assets/img/migrated/visualizing-22-years-of-premier-league-data-1992-2013/img0.PNG

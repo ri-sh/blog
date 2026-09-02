@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "rewriting Hough Line Detection algorithm In Opencv"
+title: "Rewriting Hough Line Detection Algorithm in OpenCV"
 date: 2016-09-03 01:19:00
-thumbnail: /assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/img0.jpg
+thumbnail: /assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/img0.svg
 ---
 
 _Originally posted on my old blog on 2016-09-03._
@@ -14,7 +14,7 @@ Hough Transform is a popular technique to detect any shape, if you can represent
   
   
 The linear Hough transform algorithm uses a two-dimensional array, called an accumulator, to detect the existence of a line described by   
-![r=x\\cos \\theta +y\\sin \\theta ](/assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/img0.jpg).  
+![r=x\\cos \\theta +y\\sin \\theta ](/assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/img0.svg).  
 The dimension of the accumulator equals the number of unknown parameters, i.e., two, considering quantized values of r and θ in the pair (r,θ).   
 For each pixel at _(x,y)_ and its neighborhood, the Hough transform algorithm determines if there is enough evidence of a straight line at that pixel. If so, it will calculate the parameters (r,θ) of that line, and then look for the accumulator's bin that the parameters fall into, and increment the value of that bin. By finding the bins with the highest values, typically by looking for local maxima in the accumulator space, the most likely lines can be extracted  
   

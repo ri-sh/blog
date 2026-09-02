@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Automate sms using Way2sms.py"
+title: "Automate SMS Using Way2SMS.py"
 date: 2015-08-10 04:18:00
 tags: ["python", "Python"]
 ---

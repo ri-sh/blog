@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C ++ algorithmic challenges"
+title: "C++ Algorithmic Challenges"
 date: 2014-05-19 18:41:00
 ---
 

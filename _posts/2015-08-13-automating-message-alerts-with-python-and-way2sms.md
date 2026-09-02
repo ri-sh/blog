@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Automating message  Alerts  with Python and way2sms"
+title: "Automating Message Alerts with Python and Way2SMS"
 date: 2015-08-13 18:16:00
 ---
 

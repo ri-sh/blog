@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gesture  Recognition in python"
+title: "Gesture Recognition in Python"
 date: 2014-06-02 19:23:00
 thumbnail: /assets/img/migrated/gesture-recognition-in-python/img0.png
 ---

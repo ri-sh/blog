@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How  clubs dominate in Premier League"
+title: "How Clubs Dominate in Premier League"
 date: 2015-02-24 17:48:00
 tags: ["d3.js"]
 ---

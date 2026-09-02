@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google  Image  Grabber.py"
+title: "Google Image Grabber.py"
 date: 2015-02-13 13:27:00
 tags: ["Google Image", "Python"]
 thumbnail: /assets/img/migrated/google-image-grabber-py/img0.png

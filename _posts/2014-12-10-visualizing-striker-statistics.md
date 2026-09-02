@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VIsualizing Striker Statistics"
+title: "Visualizing Striker Statistics"
 date: 2014-12-10 04:18:00
 tags: ["visualization", "scraping", "python"]
 ---

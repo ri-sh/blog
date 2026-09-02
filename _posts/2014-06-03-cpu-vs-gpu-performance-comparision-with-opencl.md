@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CPU vs GPU performance comparision with OpenCL"
+title: "CPU vs GPU Performance Comparison with OpenCL"
 date: 2014-06-03 14:27:00
 tags: ["Python", "Opencl"]
 ---
