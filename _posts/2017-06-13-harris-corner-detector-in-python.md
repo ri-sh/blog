@@ -161,7 +161,9 @@ An example of corner detection with the Harris corner detector -- the original r
 
 I re-ran the exact code above (with the `gauss_kernel` fix included) against the same image just now, to confirm it still works. It detected 471 corner points, correctly picking out the window grid, the building edges, and the spire:
 
-![Harris corners re-run on empire.jpg, 471 points detected](/blog/assets/img/migrated/harris-corner-detector-in-python/empire-harris-rerun.png)
+![Harris corners re-run on empire.jpg, 471 points detected](/blog/assets/img/migrated/harris-corner-detector-in-python/empire-harris-rerun-v2.png)
+
+_(Sized to match the source image's native resolution rather than matplotlib's default figure size, which is why this looks bigger/sharper than a plain `show()` window would by default.)_
 
   
 An overview of different approaches to corner detection, including improvements on the Harris detector and further developments, see e.g. <http://en.wikipedia.org/wiki/Corner_detection>.
