@@ -4,7 +4,7 @@ title: "Easy Gensim Example"
 date: 2015-01-13 12:53:00
 ---
 
-_Originally posted on my old blog on 2015-01-13._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-01-13._
 
 #  (Relatively) Quick and Easy Gensim Example Code
 

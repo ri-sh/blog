@@ -4,7 +4,7 @@ title: "C++ Algorithmic Challenges"
 date: 2014-05-19 18:41:00
 ---
 
-_Originally posted on my old blog on 2014-05-19._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-05-19._
 
 ###  Pogramming 
 

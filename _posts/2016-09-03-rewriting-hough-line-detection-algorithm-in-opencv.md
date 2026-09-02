@@ -2,16 +2,16 @@
 layout: post
 title: "Rewriting Hough Line Detection Algorithm in OpenCV"
 date: 2016-09-03 01:19:00
-thumbnail: /assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/img0.svg
+thumbnail: /assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/formula-v2.svg
 ---
 
-_Originally posted on my old blog on 2016-09-03._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2016-09-03._
 
 The Hough Transform is a popular technique for detecting shapes that can be expressed in a mathematical form -- lines, circles, that sort of thing. One thing that makes it useful is that it still works even when the shape is broken up or a little distorted, which is exactly the kind of noisy edge you get out of a real edge detector.
 
 For lines specifically, the algorithm works by voting. Every line can be described by two parameters, r and θ, in the equation:
 
-![r=x\cos \theta +y\sin \theta](/assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/img0.svg)
+![r=x\cos \theta +y\sin \theta](/assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/formula-v2.svg)
 
 So the algorithm builds a 2D array -- the "accumulator" -- with one axis for r and one for θ, at whatever resolution you quantize them to. Then, for every edge pixel (x, y) in the image, it works out which (r, θ) pairs a line through that pixel could have, and increments the accumulator bin for each one. A real line in the image means many edge pixels all "vote" for roughly the same (r, θ), so after processing every edge pixel, the bins with the highest counts -- the local maxima -- correspond to the lines actually present in the image.
 
@@ -28,11 +28,11 @@ find values of (d,theta) where H(d,theta) is maximum
 
 To try it out, I ran it on a simple test image full of basic shapes:
 
-![shapes.png](/assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/img1.png)
+![shapes.png](/assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/shapes-v2.png)
 
 And here's the result, with the detected lines drawn back onto the image:
 
-![Houghlines](/assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/img2.png)
+![Houghlines](/assets/img/migrated/rewriting-hough-line-detection-algorithm-in-opencv/houghlines-v2.png)
 
 And here's the full implementation, written from scratch with NumPy rather than just calling `cv2.HoughLines` -- building the accumulator, finding the peaks in it, and drawing the resulting lines back onto the image:
 

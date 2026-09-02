@@ -5,7 +5,7 @@ date: 2014-10-06 18:12:00
 tags: ["Progressive denoising and Mesh Smoothing.", "Cardinal Splines", "Triangular Mesh", "Random Valued Noise", "Mesh Denoising"]
 ---
 
-_Originally posted on my old blog on 2014-10-06._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-10-06._
 
 ![](/assets/img/migrated/3d-mesh-denoising-and-smoothing-using-cardinal-splines/rp1_1.jpg) (a)-(d) Reconstructed Elephant meshes of Various Methods (10\% Noise); (e) Reconstructed Elephant Mesh of our proposed Method (f) Reconstructed Mesh of the Coupled Method  
 ![](/assets/img/migrated/3d-mesh-denoising-and-smoothing-using-cardinal-splines/rp1_2.jpg) (a)-(g) Progressive Denoising; (h)-(i) Progressive Smoothing  

@@ -5,7 +5,7 @@ date: 2014-05-21 12:17:00
 tags: ["linux"]
 ---
 
-_Originally posted on my old blog on 2014-05-21._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-05-21._
 
 When I first installed Linux(Mandrake) on my desktop and made it dual boot with windows, my idea was to learn Linux while use windows for my regular use. But, I soon fell in love with Linux and decided to remove windows from the HD. This was viewed as arrogance by a couple of my friends because they thought that a desktop machine will be useless if it doesn't have windows. Windows was considered as an integral part of a PC.  
   

@@ -5,7 +5,7 @@ date: 2015-05-09 11:33:00
 thumbnail: /assets/img/migrated/digit-recognition-in-opencv-and-python/img0.png
 ---
 
-_Originally posted on my old blog on 2015-05-09._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-05-09._
 
 I got motivated to write a blog post on using HOG features and a multiclass Linear SVM which i recently learnt and just wanted to try some cool hands on these algorithms then i saw my bad handwriting because of which i suffered a lot in recent exams and wanted to apply something to recognize my handwriting . In the current blog post i am covering only how to recognize handwritten digits in subsequent post i will cover how to rcognize handwritten characters . 
 

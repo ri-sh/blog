@@ -4,7 +4,7 @@ title: "Python hashing"
 date: 2015-01-06 15:26:00
 ---
 
-_Originally posted on my old blog on 2015-01-06._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-01-06._
 
 ### 
 

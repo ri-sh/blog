@@ -5,7 +5,7 @@ date: 2014-06-03 14:27:00
 tags: ["Python", "Opencl"]
 ---
 
-_Originally posted on my old blog on 2014-06-03._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-06-03._
 
 I recently had opportunity to explore an awesome library called OpenCL (Open Computing Language) which enables me to create programs which helps me utilize the computation power of my Graphic Card. I wanted to try out how much faster a normal program (addition of elements to two arrays) would work if I parallize the program using OpenCL. 
 

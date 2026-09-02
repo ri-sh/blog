@@ -5,7 +5,7 @@ date: 2015-12-20 06:21:00
 thumbnail: /assets/img/migrated/face-detection-using-opencv-haar-classifier/img0.png
 ---
 
-_Originally posted on my old blog on 2015-12-20._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-12-20._
 
 #    
 [](https://render.githubusercontent.com/view/ipynb?commit=6ee6f80f80cb72e74972997c012d2f1639e4314e&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f62696b7a30352f69707974686f6e2d6e6f7465626f6f6b732f366565366638306638306362373265373439373239393763303132643266313633396534333134652f636f6d70757465722d766973696f6e2f666163652d646574656374696f6e2e6970796e62&nwo=bikz05%2Fipython-notebooks&path=computer-vision%2Fface-detection.ipynb&repository_id=35251401#Face-Detection-using-OpenCV-Haar-Classifier)

@@ -4,7 +4,7 @@ title: "Top 10 Python Idioms I Wish I'd Learned Earlier"
 date: 2015-05-05 13:46:00
 ---
 
-_Originally posted on my old blog on 2015-05-05._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-05-05._
 
 #  TOP 10 PYTHON IDIOMS I WISH I'D LEARNED EARLIER 
 

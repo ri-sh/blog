@@ -5,7 +5,7 @@ date: 2014-05-19 19:48:00
 tags: ["scraping", "Python", "hackernews"]
 ---
 
-_Originally posted on my old blog on 2014-05-19._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-05-19._
 
 I'm a big fan of the Hacker News website, and over the last nine months or so, I've upvoted quite a few stories. I wanted to include links to these on my blog. In this age of RSS, I assumed this would be simple, but it was not to be. HN does not make saved stories available by RSS, and doesn't support adding RSS feeds into sidebars. So I started building a homebrew solution.  
   

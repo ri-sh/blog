@@ -6,7 +6,7 @@ tags: ["Google Image", "Python"]
 thumbnail: /assets/img/migrated/google-image-grabber-py/img0.png
 ---
 
-_Originally posted on my old blog on 2015-02-13._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-02-13._
 
 We all do download images and wallpapers .It is easy if you manually download few images but while building a large data set of images containing more than 200 images is very difficult . In order to automate this task of downloading the images using a simple script which downloads the full sized images from Google search is the shown in this blog post . 
 

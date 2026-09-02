@@ -6,7 +6,7 @@ tags: ["Machine learning", "Algorithms"]
 thumbnail: /assets/img/migrated/machine-learning-linear-regression-with-multiple-variables/img_scatter.png
 ---
 
-_Originally posted on my old blog on 2014-07-17._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-07-17._
 
 # 
 

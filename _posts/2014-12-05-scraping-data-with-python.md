@@ -5,7 +5,7 @@ date: 2014-12-05 00:30:00
 tags: ["python", "scraping"]
 ---
 
-_Originally posted on my old blog on 2014-12-05._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-12-05._
 
 In a perfect world, all the data you needed would be easily accessible online. We're not quite there yet. In the past couple months I've had to write several scrapers to acquire large datasets and avoid a lot of tedious point/clicking or copy/pasting. (I also scraped some NFL player data to help with my fantasy football picks next year - same concept.)  
   

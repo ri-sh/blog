@@ -5,7 +5,7 @@ date: 2017-06-13 13:13:00
 thumbnail: /assets/img/migrated/harris-corner-detector-in-python/img0.jpg
 ---
 
-_Originally posted on my old blog on 2017-06-13._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2017-06-13._
 
 Thought I'd share a simple Python implementation of the Harris corner detector. I have seen people looking for a python implementation for a range of applications so I'm hoping someone finds this useful.  
   

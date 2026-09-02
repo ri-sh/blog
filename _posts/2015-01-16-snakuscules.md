@@ -6,7 +6,7 @@ tags: ["matlab", "image", "Algorithm", "computer vision"]
 thumbnail: /assets/img/migrated/snakuscules/img0.png
 ---
 
-_Originally posted on my old blog on 2015-01-16._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-01-16._
 
 ###  Snakuscules 
 

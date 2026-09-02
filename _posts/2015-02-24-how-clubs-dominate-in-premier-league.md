@@ -5,7 +5,7 @@ date: 2015-02-24 17:48:00
 tags: ["d3.js"]
 ---
 
-_Originally posted on my old blog on 2015-02-24._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-02-24._
 
 _A bigger version of this is available[here](http://rishabhsixfeet.github.io/Football/)_  
   

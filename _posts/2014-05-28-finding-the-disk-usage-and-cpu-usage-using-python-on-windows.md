@@ -5,7 +5,7 @@ date: 2014-05-28 14:36:00
 tags: ["Windows", "_winreg", "Windows Registry", "Python"]
 ---
 
-_Originally posted on my old blog on 2014-05-28._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-05-28._
 
 while fixing a bug on mozilla regression project i found a bug which wanted to determine wether my system is win32 or win64 and by default make download 32 bit version 
 

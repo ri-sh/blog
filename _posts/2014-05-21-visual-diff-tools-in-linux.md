@@ -6,7 +6,7 @@ tags: ["linux"]
 thumbnail: /assets/img/migrated/visual-diff-tools-in-linux/img0.png
 ---
 
-_Originally posted on my old blog on 2014-05-21._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-05-21._
 
 Running the regular diff between two text files to see the differences is not so elegant for the human eye to decode. Luckily there are plenty of tools out there to make this easy.  
   

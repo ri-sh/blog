@@ -4,7 +4,7 @@ title: "Automating Message Alerts with Python and Way2SMS"
 date: 2015-08-13 18:16:00
 ---
 
-_Originally posted on my old blog on 2015-08-13._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-08-13._
 
 hi in the previous post i wrote a method to send an sms using way to sms  
   

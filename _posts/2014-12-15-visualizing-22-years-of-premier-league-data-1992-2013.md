@@ -6,7 +6,7 @@ tags: ["DataAnalsis", "scraping", "Plotly", "BeautifulSoup", "visualization", "D
 thumbnail: /assets/img/migrated/visualizing-22-years-of-premier-league-data-1992-2013/img0.PNG
 ---
 
-_Originally posted on my old blog on 2014-12-15._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-12-15._
 
 ##  (Python)Visualizing 22 years of Premier League data scraped from Wikipedia.
 

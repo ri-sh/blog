@@ -4,7 +4,7 @@ title: "SPOJ Problem Set (Classical) 6219: Edit Distance"
 date: 2014-10-11 20:41:00
 ---
 
-_Originally posted on my old blog on 2014-10-11._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-10-11._
 
 **SPOJ Problem Set (classical)**  
 **  

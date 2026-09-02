@@ -6,7 +6,7 @@ tags: ["GoogleAppengine", "Python", "Google Apis"]
 thumbnail: /assets/img/migrated/search-around-using-python-and-google-app-engine/img0.gif
 ---
 
-_Originally posted on my old blog on 2014-05-21._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-05-21._
 
 ###  This summer i tried to complete my web application a place search application using google App engine and google places api 
 

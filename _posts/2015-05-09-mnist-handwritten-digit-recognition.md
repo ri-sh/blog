@@ -5,7 +5,7 @@ date: 2015-05-09 11:37:00
 tags: ["Nueral Networks", "Machine learning"]
 ---
 
-_Originally posted on my old blog on 2015-05-09._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-05-09._
 
 #  MNIST handwritten digit recognition[¶](https://draft.blogger.com/blogger.g?blogID=400547060648725706#MNIST-handwritten-digit-recognition)
 

@@ -4,7 +4,7 @@ title: "Parallelism in Python"
 date: 2015-02-23 12:46:00
 ---
 
-_Originally posted on my old blog on 2015-02-23._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-02-23._
 
 One aspect of coding in Python that we have yet to discuss in any great detail is how to optimise the execution performance of our simulations. While NumPy, SciPy and pandas are extremely useful in this regard when considering  _vectorised_ code, we aren't able to use these tools effectively when building  _event-driven_ systems. Are there any other means available to us to speed up our code? The answer is yes - but with caveats!
 

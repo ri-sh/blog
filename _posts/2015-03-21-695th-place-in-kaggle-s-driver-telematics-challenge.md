@@ -5,7 +5,7 @@ date: 2015-03-21 20:37:00
 tags: ["kaggle", "Machine learning"]
 ---
 
-_Originally posted on my old blog on 2015-03-21._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-03-21._
 
 **Intro**
 

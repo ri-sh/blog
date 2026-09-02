@@ -5,7 +5,7 @@ date: 2015-08-10 04:18:00
 tags: ["python", "Python"]
 ---
 
-_Originally posted on my old blog on 2015-08-10._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2015-08-10._
 
 **Python Way2sms.py**
 

@@ -4,7 +4,7 @@ title: "Coursera's Introduction to Data Science course"
 date: 2014-10-06 11:08:00
 ---
 
-_Originally posted on my old blog on 2014-10-06._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-10-06._
 
 I've recently become a lot more interested in what [data science](http://en.wikipedia.org/wiki/Data_science) involves — to the point of considering careers that use these skills — so when I noticed Coursera's [Introduction to Data Science](https://www.coursera.org/course/datasci) course taught by [Prof. Bill Howe](http://homes.cs.washington.edu/~billhowe/) at the University of Washington, I decided to take it. I finished the last assignment this weekend, so it's a good time to write up my thoughts while they're still fresh.  
   

@@ -5,7 +5,7 @@ date: 2014-06-02 19:23:00
 thumbnail: /assets/img/migrated/gesture-recognition-in-python/img0.png
 ---
 
-_Originally posted on my old blog on 2014-06-02._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-06-02._
 
 Below is a flowchart representation of the program  
 ![](/assets/img/migrated/gesture-recognition-in-python/img0.png)  

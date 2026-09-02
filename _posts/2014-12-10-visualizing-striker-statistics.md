@@ -5,7 +5,7 @@ date: 2014-12-10 04:18:00
 tags: ["visualization", "scraping", "python"]
 ---
 
-_Originally posted on my old blog on 2014-12-10._
+_Originally posted on my [old blog](https://rishabhroy.blogspot.com/) on 2014-12-10._
 
 Here i am comparing the scoring statistics of four of the best strikers of the recent football history: Del Piero, Trezeguet, Ronaldo and Vieri. The statistics that we will look at are the scoring trajectory, scoring rate and number of appearances.   
 To compute these values we need to scrape the career statistics (number of goals and appearances per season) on the Wikipedia pages of the players:  
