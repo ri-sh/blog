@@ -49,7 +49,7 @@ To compute these values we need to scrape the career statistics (number of goals
 Now we are ready to compute our statistics. For each statistics we will produce an interactive chart using [plotly](http://glowingpython.blogspot.com/search/label/plotly).  
 
 
-##  Scoring trajectory
+## Scoring trajectory
     
     
     import plotly.plotly as py
@@ -77,10 +77,12 @@ Now we are ready to compute our statistics. For each statistics we will produce 
     
     py.iplot(fig, filename='cumulative-goals')
 
+_(The interactive Plotly chart that was here is gone -- Plotly's chart-hosting URLs from that era have been permanently deleted (HTTP 410), with no archived copy available.)_
+
 The scoring trajectory is given by the yearly cumulative totals of goals scored. From the scoring trajectories we can see that Ronaldo was a goal machine since his first professional season and his worse period was from 1999 to 2001. Del Piero and Trezeguet have the longest careers (and they're still playing!). Vieri had the shortest career but it's impressive to see that the number of goals he scored increased almost constantly from 1996 to 2004.  
 
 
-##  Scoring rate
+## Scoring rate
     
     
     data = Data([
@@ -94,10 +96,12 @@ The scoring trajectory is given by the yearly cumulative totals of goals scored.
     ])
     py.iplot(data, filename='goal-average')
 
+_(Same story here -- the original chart is gone, deleted from Plotly's servers.)_
+
 The scoring rate is the number of goals scored divided by the number of appearances. Ronaldo has a terrific 0.67 scoring rate, meaning that, on average he scored more than three goals each five games. Vieri and Trezeguet have a very similar scoring rate, almost one goal each two games. While Del Piero has 0.40, two goals each five games.  
 
 
-##  Appearances
+## Appearances
     
     
     data = Data([
@@ -110,5 +114,7 @@ The scoring rate is the number of goals scored divided by the number of appearan
         )
     ])
     py.iplot(data, filename='appearances')
+
+_(This chart is gone too, same reason.)_
 
 The number of Del Piero's appearances on a football field is impressive. At the moment I'm writing, he played 773 games. No one of the other players was able to play the 70% of the games played by the Italian numero 10.

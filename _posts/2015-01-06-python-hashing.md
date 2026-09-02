@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python hashing"
+title: "Python Hashing"
 date: 2015-01-06 15:26:00
 ---
 

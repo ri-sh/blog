@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Search Around using Python and Google App Engine"
+title: "Search Around Using Python and Google App Engine"
 date: 2014-05-21 11:35:00
 tags: ["GoogleAppengine", "Python", "Google Apis"]
 thumbnail: /assets/img/migrated/search-around-using-python-and-google-app-engine/img0.gif

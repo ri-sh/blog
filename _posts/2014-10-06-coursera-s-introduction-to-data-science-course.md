@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coursera's Introduction to Data Science course"
+title: "Coursera's Introduction to Data Science Course"
 date: 2014-10-06 11:08:00
 ---
 
