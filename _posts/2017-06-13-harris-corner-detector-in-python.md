@@ -48,7 +48,19 @@ Let's see what this looks like in code. First we need to be able to do convoluti
     
         return imx,imy
 
-  
+    def gauss_kernel(size, sizey=None):
+        """ returns a normalized 2D gauss kernel array for convolutions """
+        size = int(size)
+        if not sizey:
+            sizey = size
+        else:
+            sizey = int(sizey)
+        y, x = mgrid[-size:size+1, -sizey:sizey+1]
+        g = exp(-(x**2/float(size)+y**2/float(sizey)))
+        return g / g.sum()
+
+_(Note: the original post never actually defined `gauss_kernel` even though `compute_harris_response` below calls it -- it's needed to blur the structure tensor components, so here it is, added back in.)_
+
 The point of using Gaussian derivative filters is that this computes a smoothing of the image, to a scale defined by the size of the filter, and the derivatives at the same time. The derivatives are less noisy than if computed with a simple difference filter on the original image.  
   
 First add the corner response function to a file harris.py which will make use of the Gaussian derivatives above.  
@@ -129,7 +141,9 @@ Now you have all you need to detect corner points in images. To make it easier t
         show()
 
   
-Try running the following commands on an [example image](http://www.maths.lth.se/matematiklth/personal/solem/downloads/empire.jpg):  
+Try running the following commands on an [example image](http://www.maths.lth.se/matematiklth/personal/solem/downloads/empire.jpg) (the same "empire.jpg" -- a shot of the Empire State Building -- used in Jan Erik Solem's _Programming Computer Vision with Python_, which is where this implementation originally comes from):
+
+![empire.jpg -- the source photo](/assets/img/migrated/harris-corner-detector-in-python/empire-original.jpg)
 
     
     
@@ -140,10 +154,14 @@ Try running the following commands on an [example image](http://www.maths.lth.se
 
   
 The image is opened and converted to grayscale. Then the response function is computed and points selected based on the response values. Finally, the points are plotted overlaid on the original image. This should give you a plot like this.  
-[![](/assets/img/migrated/harris-corner-detector-in-python/img0.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8734CmrIIDaRdIrmTr9ANIMQ6mfFYPOWIwozPaFVOoevBCcYxvmZP1gZdVuQ3B4X89k7pwxFmsIox0_eMOF5-zAwVklXLHQbGn1PLQkzPBdmspijtg42kZRZH6f7POOjizlquooVussg/s1600-h/empire_harris_t5percent.jpg)  
+[![](/assets/img/migrated/harris-corner-detector-in-python/img0.jpg)](/assets/img/migrated/harris-corner-detector-in-python/img0.jpg)  
 
 
-An example of corner detection with the Harris corner detector.
+An example of corner detection with the Harris corner detector -- the original result from when this post was first written.
+
+I re-ran the exact code above (with the `gauss_kernel` fix included) against the same image just now, to confirm it still works. It detected 471 corner points, correctly picking out the window grid, the building edges, and the spire:
+
+![Harris corners re-run on empire.jpg, 471 points detected](/assets/img/migrated/harris-corner-detector-in-python/empire-harris-rerun.png)
 
   
 An overview of different approaches to corner detection, including improvements on the Harris detector and further developments, see e.g. <http://en.wikipedia.org/wiki/Corner_detection>.
