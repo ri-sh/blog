@@ -6,9 +6,40 @@ layout: default
   <p class="post-meta">
     {{ page.date | date: "%B %-d, %Y" }}
     {% for tag in page.tags %}<span class="category-link">{{ tag }}</span>{% endfor %}
+    {% if site.goatcounter_code %}&middot; <span id="view-count">-</span> views{% endif %}
   </p>
   <div class="post-content">
     {{ content }}
   </div>
 </article>
 <p><a href="{{ '/' | relative_url }}">&larr; Back to all posts</a></p>
+
+<section class="comments">
+  <script src="https://giscus.app/client.js"
+    data-repo="ri-sh/blog"
+    data-repo-id="R_kgDOULPV9w"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOULPV984DEvr1"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async>
+  </script>
+</section>
+
+{% if site.goatcounter_code %}
+<script>
+  fetch("https://{{ site.goatcounter_code }}.goatcounter.com/counter/" + encodeURIComponent(location.pathname) + ".json")
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var el = document.getElementById("view-count");
+      if (el && d && d.count) { el.textContent = d.count; }
+    })
+    .catch(function () {});
+</script>
+{% endif %}
