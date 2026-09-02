@@ -3,6 +3,7 @@ layout: post
 title: "3D Mesh Denoising and Smoothing using Cardinal Splines"
 date: 2014-10-06 11:12:00
 tags: ["Cardinal Splines", "Mesh Denoising", "Progressive denoising and Mesh Smoothing.", "Random Valued Noise", "Triangular Mesh"]
+thumbnail: /assets/img/migrated/a-fast-and-efficient-mesh-smoothing/img0.jpg
 ---
 
 _Originally posted on my old blog on 2014-10-06._

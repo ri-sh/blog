@@ -2,6 +2,7 @@
 layout: post
 title: "digit recognition in opencv and python"
 date: 2015-05-09 04:33:00
+thumbnail: /assets/img/migrated/weight-lifting-classification/img0.jpg
 ---
 
 _Originally posted on my old blog on 2015-05-09._

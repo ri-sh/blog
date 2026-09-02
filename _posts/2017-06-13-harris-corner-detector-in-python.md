@@ -2,6 +2,7 @@
 layout: post
 title: "Harris Corner Detector in Python"
 date: 2017-06-13 06:13:00
+thumbnail: /assets/img/migrated/harris-corner-detector-in-python/img0.jpg
 ---
 
 _Originally posted on my old blog on 2017-06-13._

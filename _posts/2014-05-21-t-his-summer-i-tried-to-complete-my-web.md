@@ -3,6 +3,7 @@ layout: post
 title: "Search Around using Python and Google App Engine"
 date: 2014-05-21 04:35:00
 tags: ["Google Apis", "GoogleAppengine", "Python"]
+thumbnail: /assets/img/migrated/t-his-summer-i-tried-to-complete-my-web/img0.gif
 ---
 
 _Originally posted on my old blog on 2014-05-21._

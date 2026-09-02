@@ -2,6 +2,7 @@
 layout: post
 title: "rewriting Hough Line Detection algorithm In Opencv"
 date: 2016-09-02 18:19:00
+thumbnail: /assets/img/migrated/rewriting-hough-line-detection/img0.jpg
 ---
 
 _Originally posted on my old blog on 2016-09-02._

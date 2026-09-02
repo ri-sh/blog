@@ -3,6 +3,7 @@ layout: post
 title: "Google  Image  Grabber.py"
 date: 2015-02-13 05:27:00
 tags: ["Google Image", "Python"]
+thumbnail: /assets/img/migrated/google-image-grabber/img0.png
 ---
 
 _Originally posted on my old blog on 2015-02-13._

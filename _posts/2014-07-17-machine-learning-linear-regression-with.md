@@ -3,6 +3,7 @@ layout: post
 title: "Machine Learning: Linear Regression With Multiple Variables"
 date: 2014-07-17 08:54:00
 tags: ["Algorithms", "Machine learning"]
+thumbnail: /assets/img/migrated/machine-learning-linear-regression-with/img0.jpg
 ---
 
 _Originally posted on my old blog on 2014-07-17._

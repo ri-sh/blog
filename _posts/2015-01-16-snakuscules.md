@@ -3,6 +3,7 @@ layout: post
 title: "Snakuscules"
 date: 2015-01-16 12:37:00
 tags: ["Algorithm", "computer vision", "image", "matlab"]
+thumbnail: /assets/img/migrated/snakuscules/img0.png
 ---
 
 _Originally posted on my old blog on 2015-01-16._

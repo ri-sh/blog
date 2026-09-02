@@ -2,6 +2,7 @@
 layout: post
 title: "Realtime Data Visualization in python"
 date: 2015-07-02 13:59:00
+thumbnail: /assets/img/migrated/realtime-data-visualization-in-python/img0.gif
 ---
 
 _Originally posted on my old blog on 2015-07-02._
